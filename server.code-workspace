@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "inorbit-frontend",
+			"path": "inorbit-frontend"
+		},
+		{
+			"name": "server",
+			"path": "server"
+		}
+	],
+	"settings": {}
+}
