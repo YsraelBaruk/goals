@@ -60,11 +60,7 @@ export function WeeklySummary({ summary }: WeeklySummaryProps) {
 
       <PendingGoals />
 
-      {summary.completed === 0 ? (
-        <DashBoardTask />
-      ) : (
-        <p>Concluia alguma tarefa</p>
-      )}
+      <DashBoardTask summary={summary} />
     </div>
   )
 }

@@ -21,7 +21,7 @@ export function App() {
     )
   }
 
-  console.log(data.summary.total)
+  console.log(data.summary)
 
   return (
     <Dialog>
